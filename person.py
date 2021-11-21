@@ -1,3 +1,4 @@
+#stores all user information
 class Person:
     def __init__(self, name, ticket_id, num_masks, account_balance):
         self.name = name

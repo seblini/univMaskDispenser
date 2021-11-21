@@ -1,6 +1,7 @@
 from person import Person
 import os
 
+#mask dispenser simulator
 def main():
     dummy = Person('dummy', '5000000', 0, 0)
     ls = []
