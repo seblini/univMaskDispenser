@@ -10,8 +10,8 @@ def main():
 
 def home(ls):
     cls()
-    print('PROTECTION KIT VENDING MACHINE')
-    print('Welcome! Please login using your name and ticket ID.')
+    print('PROTECTION KIT VENDING MACHINE\n')
+    print('Welcome! Please login using your name and ticket ID.\n')
     user_name = input('Name: ')
     user_id = input('Ticket ID: ')
     print_account_information(ls, ls[insertList(ls, user_name, user_id)])
